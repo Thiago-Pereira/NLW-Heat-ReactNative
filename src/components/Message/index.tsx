@@ -6,7 +6,7 @@ import { UserPhoto } from '../UserPhoto';
 
 import { styles } from './styles';
 
-export type MessagePropos = {
+export type MessageProps = {
   id: string;
   text: string;
   user: {
@@ -16,7 +16,7 @@ export type MessagePropos = {
 }
 
 type Props = {
-  data: MessagePropos;
+  data: MessageProps;
 }
 
 export function Message({ data }: Props){
